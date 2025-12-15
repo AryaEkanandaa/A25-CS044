@@ -10,6 +10,7 @@ Mensimulasikan pembuatan tiket maintenance secara otomatis (dummy).
 Tujuan utama proyek ini adalah mendukung engineer membuat keputusan data-driven, menurunkan risiko downtime tak terencana, dan menyajikan MVP web app yang mencakup dashboard kesehatan mesin serta interface chat agent. Keberhasilan proyek diukur dari akurasi model anomaly detection >70%, kemampuan agent menjawab query dengan benar, dan demo web app yang menampilkan dashboard dan interaksi chatbot.
 
 2. Setup Environtment :
+
 -FrontEnd
 1. Pastikan Nodejs sudah terinstall (versi yang kami gunakan yaitu 22.19.0)
 2. Masuk ke folder frontend pada terminal dengan perintah "cd frontend".
