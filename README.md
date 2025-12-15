@@ -1,7 +1,9 @@
 1. Deskripsi Singkat Project :
+   
 PrediX AI – Predictive Maintenance Copilot adalah solusi berbasis web yang membantu perusahaan energi (pembangkit listrik, pertambangan, oil & gas) mengelola peralatan kritis seperti turbin, generator, dan transformator secara lebih efisien. Proyek ini dirancang untuk mengatasi tantangan tim O&M yang masih mengandalkan proses manual dan analisis reaktif, sehingga sulit menafsirkan data sensor secara cepat dan akurat.
 
 PrediX AI menggunakan Agentic AI untuk:
+Mendeteksi anomali dari data sensor (getaran, temperatur, arus, dll) secara real-time.
 Memberikan rekomendasi maintenance berbasis prediksi risiko peralatan.
 Menjawab pertanyaan engineer menggunakan natural language query, misalnya “mesin mana yang paling berisiko minggu ini?”.
 Mensimulasikan pembuatan tiket maintenance secara otomatis (dummy).
@@ -29,12 +31,10 @@ Tujuan utama proyek ini adalah mendukung engineer membuat keputusan data-driven,
 4. Kemudian aktifkan venv nya dengan perintah ".\venv\Scripts\activate".
 5. Terakhir, Install library yang diperlukan dengan perintah " python -m pip install fastapi uvicorn scikit-learn numpy pandas requests xgboost".
 
-
-
-3. Tautan Model ML : https://drive.google.com/drive/folders/1KfoNGtlG7G50trK2Q6XF4SVVyBgDg_9A?usp=sharing
+3.Tautan Model ML : https://drive.google.com/drive/folders/1KfoNGtlG7G50trK2Q6XF4SVVyBgDg_9A?usp=sharing 
 
    
-4. Cara Menjalankan Aplikasi :
+4.Cara Menjalankan Aplikasi :
    1. Buat seluruh environtment dan library yang diperlukan.
    2. Untuk Menjalankan server frontend. anda perlu masuk terlebih dahulu ke dalam folder frontend dengan perintah "cd frontend". setelah itu anda dapat menjalankan server dengan perintah "npm run dev ataupun npm run start".
    3. Untuk Menjalankan server backend. anda perlu masuk terlebih dahulu ke dalam folder backend dengan perintah "cd backend". setelah itu anda dapat menjalankan server backend dengan perintah "npm run dev ataupun npm run start".
