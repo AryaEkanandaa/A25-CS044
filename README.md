@@ -1,6 +1,5 @@
 1. Deskripsi Singkat Project :
-   
-PrediX AI – Predictive Maintenance Copilot adalah solusi berbasis web yang membantu perusahaan energi (pembangkit listrik, pertambangan, oil & gas) mengelola peralatan kritis seperti turbin, generator, dan transformator secara lebih efisien. Proyek ini dirancang untuk mengatasi tantangan tim O&M yang masih mengandalkan proses manual dan analisis reaktif, sehingga sulit menafsirkan data sensor secara cepat dan akurat.
+PrediX AI – Predictive Maintenance Copilot adalah website yang dirancang untuk memantau kondisi mesin secara real-time, memprediksi potensi kegagalan, serta mendeteksi anomali sejak dini berdasarkan data sensor. Sistem ini mengintegrasikan backend API, layanan machine learning, dan AI agent interaktif untuk membantu pengguna dalam menganalisis kondisi mesin, mengurangi downtime, dan mendukung pengambilan keputusan maintenance secara proaktif.
 
 PrediX AI menggunakan Agentic AI untuk:
 Mendeteksi anomali dari data sensor (getaran, temperatur, arus, dll) secara real-time.
